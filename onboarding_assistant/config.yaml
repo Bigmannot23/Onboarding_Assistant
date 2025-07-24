@@ -1,0 +1,12 @@
+# Default configuration for the Onboarding Assistant
+model: gpt-3.5-turbo
+temperature: 0.3
+max_tokens: 500
+top_k: 4
+embed_model: text-embedding-ada-002
+
+## Notes
+# - Adjust `temperature` for more creative answers.
+# - Increase `max_tokens` for longer responses (may incur higher costs).
+# - `top_k` controls how many document chunks are fed into the prompt.
+# - To change the embedding model, modify both this file and the call in index_embeddings.py.
