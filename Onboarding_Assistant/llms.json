@@ -1,0 +1,28 @@
+{
+  "name": "Onboarding Assistant",
+  "description": "Reduce ramp-up time for new team members and customers. This retrieval-augmented Q&A system indexes your internal docs, FAQs and SOPs so users can ask plain-language questions and get accurate answers instantly.",
+  "usage": [
+    "Clone this repository and install dependencies.",
+    "Place your documents into the `knowledge_base` folder.",
+    "Run the indexing script to build the vector store.",
+    "Start the assistant CLI or web server.",
+    "Ask questions and get immediate answers."
+  ],
+  "architecture": [
+    "Document ingestion and embedding into a FAISS vector store.",
+    "Retrieval of relevant chunks based on user queries.",
+    "ChatGPT uses the retrieved context to craft precise answers.",
+    "Configurable knowledge base: add or remove documents as needed.",
+    "Operator-friendly CLI and web interface."
+  ],
+  "inputs": "Project-specific inputs (see usage)",
+  "outputs": "Project-specific outputs (see usage)",
+  "tags": [
+    "onboarding",
+    "assistant"
+  ],
+  "links": {
+    "repository": "https://github.com/Bigmannot23/Onboarding_Assistant",
+    "documentation": "OPERATOR_README.md"
+  }
+}
