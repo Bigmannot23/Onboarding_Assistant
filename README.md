@@ -6,9 +6,9 @@
 [Meta Portfolio](https://github.com/Bigmannot23/meta_portfolio) · [Operator Metrics Dashboard](https://github.com/Bigmannot23/operator_metrics_dashboard) · [AI Code Review Bot](https://github.com/Bigmannot23/ai_code_review_bot) · [Onboarding Assistant](#) · [Job Offer Factory](https://github.com/Bigmannot23/job_offer_factory_autorun) · [Lexvion Compliance Engine](https://github.com/Bigmannot23/lexvion) · [Trading Bot](https://github.com/Bigmannot23/lexvion_trading_bot_full_auto) · [Leadscore API](https://github.com/Bigmannot23/operators-leadscore-api)
 
 ### Proof‑of‑ROI
-- **Time to onboard:** Reduced from hours to minutes thanks to automated self‑service【811238474838307†L6-L34】.
+- **Time to onboard:** Reduced from hours to minutes thanks to automated self‑service.
 - **FAQ resolution:** 80% of common questions answered without human intervention【811238474838307†L6-L34】.
-- **Support hours saved:** More than 40 hours saved per cohort【811238474838307†L6-L34】.
+- **Support hours saved:** More than 40 hours saved per cohort.
 
 ### What it does
 - **Document ingestion & embedding:** Indexes Markdown, PDF and other documents into a FAISS vector store【811238474838307†L45-L52】.
