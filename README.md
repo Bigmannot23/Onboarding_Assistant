@@ -7,12 +7,12 @@
 
 ### Proof‑of‑ROI
 - **Time to onboard:** Reduced from hours to minutes thanks to automated self‑service.
-- **FAQ resolution:** 80% of common questions answered without human intervention【811238474838307†L6-L34】.
+- **FAQ resolution:** 80% of common questions answered without human intervention.
 - **Support hours saved:** More than 40 hours saved per cohort.
 
 ### What it does
-- **Document ingestion & embedding:** Indexes Markdown, PDF and other documents into a FAISS vector store【811238474838307†L45-L52】.
-- **ChatGPT retrieval:** For every user query, fetches top relevant chunks and feeds them to ChatGPT to craft a precise answer【811238474838307†L45-L52】.
+- **Document ingestion & embedding:** Indexes Markdown, PDF and other documents into a FAISS vector store.
+- **ChatGPT retrieval:** For every user query, fetches top relevant chunks and feeds them to ChatGPT to craft a precise answer.
 - **Configurable knowledge base:** Add or remove documents in the `knowledge_base/` folder; the assistant auto‑rebuilds.
 - **Operator‑friendly:** Works out‑of‑the‑box via a CLI; can be containerized or deployed as a microservice.
 
@@ -24,7 +24,7 @@ New hires and customers ask the same questions repeatedly. By offloading those t
 2. Place your docs into the `knowledge_base` folder.
 3. Run the indexing script to build the FAISS database.
 4. Start the assistant CLI or web server and begin asking questions.
-5. For advanced usage, see `operator_guide.md`【817966587501424†L6-L76】.
+5. For advanced usage, see `operator_guide.md`.
 
 ### Operator principles
 - **Automation First:** Let the assistant handle repeated questions.
@@ -35,6 +35,6 @@ New hires and customers ask the same questions repeatedly. By offloading those t
 ### Related projects
 - Use **[Job Offer Factory](https://github.com/Bigmannot23/job_offer_factory_autorun)** to process job postings and feed candidate questions to the assistant.
 - Integrate with **[Lexvion Compliance Engine](https://github.com/Bigmannot23/lexvion)** to answer compliance queries.
-- Check the **[Meta Portfolio](https://github.com/Bigmannot23/meta_portfolio)** for case studies, ROI and the overall timeline【33369937729146†L4-L22】.
+- Check the **[Meta Portfolio](https://github.com/Bigmannot23/meta_portfolio)** for case studies, ROI and the overall timeline.
 
 ---
