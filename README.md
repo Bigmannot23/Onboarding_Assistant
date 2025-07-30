@@ -14,7 +14,7 @@
 - **Document ingestion & embedding:** Indexes Markdown, PDF and other documents into a FAISS vector store【811238474838307†L45-L52】.
 - **ChatGPT retrieval:** For every user query, fetches top relevant chunks and feeds them to ChatGPT to craft a precise answer【811238474838307†L45-L52】.
 - **Configurable knowledge base:** Add or remove documents in the `knowledge_base/` folder; the assistant auto‑rebuilds.
-- **Operator‑friendly:** Works out‑of‑the‑box via a CLI; can be containerized or deployed as a microservice【817966587501424†L6-L76】.
+- **Operator‑friendly:** Works out‑of‑the‑box via a CLI; can be containerized or deployed as a microservice.
 
 ### Why it matters
 New hires and customers ask the same questions repeatedly. By offloading those to AI, you free team members to focus on higher‑value tasks and ensure consistent answers. The assistant also serves as a living reference for long‑tail knowledge.
